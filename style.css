@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Inspiration&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.inspiration-regular {
+    font-family: "Inspiration", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffb515;
+    letter-spacing: 0.5rem;
+  }
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("./fondito.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-y: -70px; */
+}
+
+.contenedor {
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+    opacity: 0.8;
+}
+
+.circle1 {
+    width: 250px;
+    height: 140px;
+    background-color: #f68c0bda;
+    border-radius: 70px;
+    position: relative; 
+    z-index: 1; 
+}
+
+.icono1 {
+    position: absolute; 
+    top: -35px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.play {
+    display: flex;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #ff0000;
+    font-weight: 900;
+    font-family: "Holtwood One SC", serif;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 35px; 
+}
+
+
+.contenedor2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    opacity: 0.8;
+    flex: 0 0 20%; /* Ocupa el 45% del ancho para permitir separación */
+}
+
+.circle2 {
+    width: 250px;
+    height: 140px;
+    margin-top: -140px;
+    background-color: #f68c0bda;
+    border-radius: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.icono2 {
+    position: absolute;
+    top: -95px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.play2 {
+    display: flex;
+    margin-top: -30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #ff0000;
+    font-weight: 900;
+    font-family: "Holtwood One SC", serif;
+}
+
